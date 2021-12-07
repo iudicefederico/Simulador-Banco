@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cs/estilos.css">
+    <title>Banco Iudice</title>
+</head>
+<body id="body">
+    <div class="body__var1">
+        <h1 class="body__var__title">BIENVENIDO/A A BANCO IUDICE</h1>
+    </div>
+    <section class="section">
+        <div id="cotiz">
+        </div>
+        <div class="input-group">
+            <form id="formC">
+                <h2 class="body__var2__title">Complete los siguientes campos</h2 class="body__var2__title">
+                <div class="form-group">
+                    <div>
+                        <label>Nombre y apellido</label>
+                        <input type="text" id="nombre" aria-label="First name" class="form-control" placeholder="Nombre/Nombres">
+                        <input type="text" id="apellido" aria-label="Last name" class="form-control" placeholder="Apellido">
+                    </div>
+                    <div>
+                        <label id="label">Edad</label>
+                        <input type="number" id="edad" aria-label="age" class="form-control" placeholder="Edad">
+                    </div>
+                    <div>
+                        <label id="label">Ingrese el cobro neto de su antepenúltimo recibo de sueldo</label>
+                        <input type="number" id="cobro1" aria-label="cobro1" class="form-control" placeholder="Ingrese el número sin signos, puntos, comas ni centavos">
+                    </div>
+                    <div>
+                        <label id="label">Ingrese el cobro neto de su anteúltimo recibo de sueldo</label>
+                        <input type="number" id="cobro2" aria-label="cobro2" class="form-control" placeholder="Ingrese el número sin signos, puntos, comas ni centavos">
+                    </div>
+                    <div>
+                        <label id="label">Ingrese el cobro neto de su último recibo de sueldo</label>
+                        <input type="number" id="cobro3" aria-label="cobro3" class="form-control" placeholder="Ingrese el número sin signos, puntos, comas ni centavos">
+                    </div>
+                    <div>
+                        <label id="label">¿Cobra sus haberes en nuestro Banco?</label>
+                        <input type="text" id="cliente" aria-label="cliente" class="form-control" placeholder="Por favor responda SI o NO">
+                    </div>
+                    <div>
+                        <label id="label">El préstamo incluye un seguro a elección. Podrá optar por un seguro de robo en cajeros ATM (valor $35 final mensual) o un seguro de robo de cartera, mochila o cualquier equipaje de mano de uso diario (no incluye equipaje para viajes; valor $100 final mensual). Ambos incluyen hasta 3 incidentes anuales.</label>
+                        <input type="text" id="seguro" aria-label="seguro" class="form-control" placeholder="Por favor responda ATM o CARTERA">
+                    </div>
+                    <div>
+                        <label id="label">Ingrese la cantidad de meses en que solicitará el crédito (1 a 5 años)</label>
+                        <input type="number" id="meses" aria-label="meses" class="form-control" placeholder="Por favor responda si 12, 24, 36, 48 o 60">
+                    </div>
+                    <button type= "submit" id="button2">Cotizar ahora</button>
+                </div> 
+            </form> 
+            <div id="cot3"></div> 
+            <div>
+                <section>
+                    <button id="requisitos" class="btn btn-secondary btn-primary btn-sm">Mostrar requisitos</button>
+                </section>
+                <section>
+                    <p id="parrafo">Le informamos que para solicitar un crédito deberá adjuntar los siguientes requisitos: DNI, Constancia de CUIL/CUIT, Últimos 3 recibos de sueldo, Factura de servicio fijo a su nombre</p>
+                </section>
+            </div>     
+        </div>
+        <div class="body__var2" id="cot">
+            <a class="btn btn-secondary btn-primary btn-sm" href="1-index.html">VOLVER A LA PAGINA PRINCIPAL</a>
+        </div>
+        <div class="body__var2" id="cot2">
+            <a class="btn btn-secondary btn-primary btn-sm" href="2-cotizar.html">COTIZAR OTRO MONTO</a>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/scriptGeneral.js"></script>
+    <script src="js/scriptCotizar.js">
+    </script>
+</body>
+</html>

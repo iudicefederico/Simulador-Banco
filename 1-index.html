@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cs/estilos.css">
+    <title>Banco Iudice</title>
+</head>
+<body id="body"> 
+    <div class="body__var1">
+        <h1 class="body__var__title">BIENVENIDO/A A BANCO IUDICE</h1>
+    </div>
+    <section class="section">
+        <div id="cotiz">
+        </div>
+        <div class="body__var2">
+            <h2 class="body__var2__title">Cotice su crédito al instante</h2>
+        </div>
+        <div class="body__var2" id="cot">
+            <a class="btn btn-secondary btn-primary btn-sm" href="2-cotizar.html">Click aquí para cotizar</a>
+        </div>
+        <div class="body__var2">
+            <h2 class="body__var2__title">Nuestras tarjetas de crédito</h2>
+        </div>
+        <section>
+            <button id="tc" class="btn btn-secondary btn-primary btn-sm">Mostrar tarjetas</button>
+        </section>
+        <section>
+            <div id="inferior"></div>
+        </section>
+        <div id="body__var2__cajas" class="body__var2">
+            <h2 id="cSeguridad" class="body__var2__title">Cajas de seguridad</h2>
+            <div id="body__var2__cajas__append"></div>
+            <button onclick="borrar(this)" class="btn btn-secondary btn-primary btn-sm">Borrar carrito</button>
+        </div>
+        <div class="body__var2">
+            <h2 class="body__var2__title">Contactanos</h3>
+            <form id="form">
+                <div class="form-group">
+                <label id="form1" for="exampleFormControlInput1">Ingrese aquí su e-mail</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Ingrese aquí su consulta</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="consulta..."></textarea>
+                </div>
+                <div>
+                    <button type="submit" id="button">Enviar</button>
+                </div>
+            </form>
+            <div id="newsletter">
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/scriptGeneral.js"></script>
+    <script src="js/scriptIndex.js"></script>
+</body>
+</html>

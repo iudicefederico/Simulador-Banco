@@ -1,0 +1,49 @@
+* {padding: 0;
+    margin: 0;}
+
+#body {font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 2px 250px;}
+
+#requisitos {text-align: left;
+    margin-top: 5px;}
+
+#cot {margin: 10px 150px 0px 150px;}
+
+#cot2 {margin: 10px 150px;}
+
+#button {margin-top: 10px;}
+
+#tc {margin-top: 10px;}
+
+#apellido {margin-top: 5px;}
+
+#label {margin-top: 16px;
+    width: 100%;}
+
+#parrafo, #button2, #newsletter {margin-top: 10px;}
+
+#cSeguridad {margin-bottom: 15px;}
+
+#form1 {margin-top: 5px;}
+
+.section {padding: 0px 150px;}
+
+.body__var__title {background-color: #9D9A9A;
+    font-weight: bolder;
+    font-size: 2.5em;
+    font-style: normal;}
+
+.body__var1, .body__var2, #inferior {padding-top: 10px;}
+
+.body__var2__title {font-weight: bold;
+    background-color: #D0B4B4;}
+    
+.form-group {margin: 10px;}
+
+.section {margin-top: 30px;}
+
+.table {background-color: #9D9A9A;
+    font-weight: bold;}
+
+.btn {margin-bottom: 10px;}
